@@ -27,7 +27,7 @@ const navLinks = [
     },
 ];
 
-const Navbar = () => {
+function Navbar() {
     return (
         <motion.div initial={{y: -100}} animate={{y: 0}} transition={{duration: 0.5}} className={'container py-6 flex justify-between items-center'}>
             {/** logo section */}
@@ -51,6 +51,6 @@ const Navbar = () => {
             </div>
         </motion.div>
     );
-};
+}
 
 export default Navbar;
