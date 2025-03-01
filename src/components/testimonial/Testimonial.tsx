@@ -42,7 +42,7 @@ function Testimonial() {
                         <div key={id} className={'border-[1px] border-gray-500 p-5 rounded-md text-white group hover:bg-white duration-300'}>
                             {/** upper section */}
                             <div className={'flex justify-center items-center gap-5'}>
-                                <Image src={img} alt={name} width={200} height={200} className={'w-20 rounded-full'}/>
+                                <Image src={img} alt={name} width={200} height={200} className={'w-16 rounded-full'}/>
                                 <div className={''}>
                                     <p className={'text-sm font-bold font-serif group-hover:text-black'}>{name}</p>
                                     <p className={'text-gray-400 text-xs'}>{designation}</p>

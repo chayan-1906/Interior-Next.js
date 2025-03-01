@@ -5,6 +5,8 @@ import Services from "@/components/services/Services";
 import Banner from "@/components/banner/Banner";
 import Banner2 from "@/components/banner/Banner2";
 import Testimonial from "@/components/testimonial/Testimonial";
+import NewsLetter from "@/components/newsletter/NewsLetter";
+import Footer from "@/components/footer/Footer";
 
 function Home() {
     return (
@@ -16,6 +18,8 @@ function Home() {
             <Banner/>
             <Banner2/>
             <Testimonial/>
+            <NewsLetter/>
+            <Footer/>
         </div>
     );
 }
