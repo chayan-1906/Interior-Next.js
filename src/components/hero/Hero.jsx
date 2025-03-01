@@ -10,7 +10,7 @@ function Hero() {
             <div className={'container'}>
                 <div className={'grid grid-cols-1 md:grid-cols-2 md:min-h-[600px] gap-10'}>
                     {/** text section */}
-                    <div className={'flex flex-col bg-amber-500 justify-center gap-7 text-center md:text-start px-10 pt-20 md:pt-0 md:pr-8 xl:pr-52'}>
+                    <div className={'flex flex-col justify-center gap-7 text-center md:text-start px-10 pt-20 md:pt-0 md:pr-8 xl:pr-52'}>
                         <motion.h1 variants={SlideUp(0.2)} initial={'initial'} animate={'animate'} className={'text-4xl font-bold font-serif uppercase'}>
                             Sketch Luxury Interior Design
                         </motion.h1>
