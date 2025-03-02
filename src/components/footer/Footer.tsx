@@ -1,3 +1,7 @@
+'use client';
+
+import {motion} from "framer-motion";
+import {SlideUp} from "@/animations/animate";
 import Image from "next/image";
 import Link from "next/link";
 import {FaPhone} from "react-icons/fa";
@@ -5,7 +9,7 @@ import {MdEmail} from "react-icons/md";
 
 function Footer() {
     return (
-        <footer>
+        <motion.footer variants={SlideUp(0.2)} initial={'initial'} whileInView={'animate'}>
             <div className={'container py-11'}>
                 {/*<div className={'grid grid-cols-1 md:grid-cols-2 bg-red-400'}>*/}
                 <div className={'flex justify-between gap-8'}>
@@ -59,7 +63,7 @@ function Footer() {
                 {/** bottom section */}
                 <p className={'text-center text-sm font-semibold border-t-2 pt-5 mt-5'}>@ 2025, TCJ All rights reserved</p>
             </div>
-        </footer>
+        </motion.footer>
     );
 }
 
