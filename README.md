@@ -34,7 +34,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-## [Live Site (Vercel)](https://interior-tcj.vercel.app/)
+## [Live Site (Vercel)](https://interior-next-js.vercel.app/)
 
 # Dependencies
 
@@ -46,4 +46,4 @@ Your app is ready to be deployed!
 
 # Video Preview
 
-[Demo]()
+[Demo](https://github.com/user-attachments/assets/b6b24577-20b1-4b19-9e24-7657bf0794d1)
